@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-container {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
